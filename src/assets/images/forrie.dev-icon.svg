@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378 378" width="378" height="378">
+	<title>FASHIONISTA-AI-CS6-ai</title>
+	<defs>
+		<linearGradient id="g1" x1="357.8" y1="55.5" x2="222.2" y2="403.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#f8ae3d"/>
+			<stop offset=".5" stop-color="#ec2381"/>
+			<stop offset="1" stop-color="#902c8d"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 132px;fill: #862d94;font-weight: 800;font-family: "Dosis-ExtraBold", "Dosis" } 
+		.s1 { fill: url(#g1) } 
+	</style>
+	<g id="Layer 1">
+		<text id="Forrie.DEV" style="transform: matrix(1,0,0,1,-101.213,492.068)" >
+			<tspan x="0" y="0" class="t0">F</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">r</tspan><tspan  y="0" class="t0">r</tspan><tspan  y="0" class="t0">i</tspan><tspan  y="0" class="t0">e</tspan><tspan  y="0" class="t0">.</tspan><tspan  y="0" class="t0">D</tspan><tspan  y="0" class="t0">E</tspan><tspan  y="0" class="t0">V</tspan><tspan  y="0" class="t0">
+</tspan>
+		</text>
+		<path id="&lt;Path&gt;" class="s1" d="m281.6 219.6c0 25.8-20.9 46.8-46.7 46.8h-31.2c-13 0-23.5 10.5-23.5 23.4v35.1c0 22.6-18.3 40.9-40.9 40.9-22.6 0-40.9-18.3-40.9-40.9v-35.1c0-25.7 20.9-46.7 46.7-46.7 6.4 0 11.6 5.2 11.6 11.6 0 6.5-5.2 11.7-11.6 11.7-13 0-23.5 10.5-23.5 23.4v35.1c0 9.8 7.9 17.7 17.7 17.7 9.8 0 17.7-7.9 17.7-17.7v-35.1c0-25.7 20.9-46.7 46.7-46.7h31.2c13 0 23.5-10.5 23.5-23.5 0-12.9-10.5-23.4-23.5-23.4h-89.8c-13 0-23.5 10.5-23.5 23.4 0 6.5-5.2 11.7-11.6 11.7-6.4 0-11.6-5.2-11.6-11.7v-147.5c0-25.7 20.9-46.7 46.7-46.7h89.8c25.8 0 46.7 21 46.7 46.7 0 25.8-20.9 46.8-46.7 46.8h-31.2c-13 0-23.5 10.5-23.5 23.4 0 6.4-5.2 11.6-11.6 11.6-6.4 0-11.6-5.2-11.6-11.6 0-25.7 20.9-46.7 46.7-46.7h31.2c13 0 23.5-10.5 23.5-23.5 0-12.9-10.5-23.4-23.5-23.4h-89.8c-13 0-23.5 10.5-23.5 23.4v107.2c6.9-4.1 14.9-6.4 23.5-6.4h89.8c25.8 0 46.7 21 46.7 46.7z"/>
+	</g>
+</svg>
