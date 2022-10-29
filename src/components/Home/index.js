@@ -3,6 +3,8 @@ import './index.scss'
 import LogoLetter from '../../assets/images/forrie.dev-icon.svg'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState } from 'react'
+import { useEffect } from 'react'
+import Logo from './Logo/index'
 
 const Home = () => {
   const [letterClass, setletterClass] = useState('text-animate')
@@ -30,15 +32,25 @@ const Home = () => {
     'r',
     '.',
   ]
+
+  useEffect(() => {
+    let timeoutId = setTimeout(() => {
+      setletterClass('text-animate-hover')
+    }, 4000)
+
+    return () => {
+      clearTimeout(timeoutId)
+    }
+  }, [])
   return (
     <div className="container home-page">
       <div className="text-zone">
         <h1>
           <span className={letterClass}>H</span>
-          <span className={`$letterClass _12`}>i</span>
+          <span className={`${letterClass} _12`}>i</span>
           <br />
-          <span className={`$letterClass _13`}>I</span>
-          <span className={`$letterClass _14`}>'m</span>
+          <span className={`${letterClass} _13`}>I</span>
+          <span className={`${letterClass} _14`}>'m</span>
 
           <img src={LogoLetter} alt="f" />
           <AnimatedLetters
@@ -58,6 +70,7 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
+      <Logo />
     </div>
   )
 }
